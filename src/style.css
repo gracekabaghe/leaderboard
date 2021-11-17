@@ -1,0 +1,112 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.main-container {
+  margin: auto;
+  width: 100%;
+  border: 2px solid black;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  padding-left: 2%;
+}
+
+.container {
+  padding: 2%;
+  margin-bottom: 10px;
+}
+
+.score-title {
+  display: flex;
+  gap: 5%;
+}
+
+.score-card {
+  display: flex;
+  height: 20%;
+  gap: 10px;
+  padding-left: 1%;
+}
+
+.score-card:nth-child(even) {
+  background-color: #d3d3d3;
+}
+
+.score-details {
+  border: 1px solid #111;
+}
+
+.input-field {
+  margin-bottom: 10px;
+}
+
+.refresh-button {
+  padding: 0;
+  background-color: #fff;
+  width: 30%;
+  height: 10%;
+  align-self: center;
+  cursor: pointer;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  height: 10px;
+  border: black 1px solid;
+  bottom: 0;
+  background-color: #d3d3d3;
+}
+
+#submit {
+  width: 20%;
+  height: 30px;
+  margin-left: 25%;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .main-container {
+    position: relative;
+    margin-top: 10%;
+    width: 60%;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .score-container {
+    width: 50%;
+  }
+
+  .score-title {
+    justify-content: space-between;
+  }
+
+  .score-card {
+    align-items: center;
+  }
+
+  .form-elements {
+    width: 45%;
+  }
+
+  .input-field {
+    width: 100%;
+    height: 30px;
+  }
+
+  form #submit {
+    width: 50%;
+    background-color: #fff;
+    margin-left: 50%;
+  }
+}
