@@ -4,7 +4,8 @@
 
 > This is a game that sends and receives data from the API
 
-![screenshot](./leaderboard.png)
+![screenshot](./app/Lmobile.png)
+![screenshot](./app/Ldesk.png)
 
 ## Built With
 
