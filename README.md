@@ -15,7 +15,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://gracekabaghe.github.io/leaderboard/)
 
 
 To get a local copy up and running follow these simple example steps.
