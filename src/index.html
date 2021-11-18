@@ -16,16 +16,16 @@
         <div class="score-container">
             <div class="score-title">
                 <h3>Recent scores</h3>
-                <button type="button" class="refresh-button">Refresh</button>
+                <button id="refresh-btn" class="refresh-button">Refresh</button>
             </div>
-            <div class="score-details">
+            <div id="score-details" class="score-details">
             </div>
         </div>
         
 
         <div class="form-elements">
             <h3 class="form-title">Add your score</h3>
-            <form method="GET" action="https://formspree.io/f/mjvjnelp">
+            <form action="submit">
                 <input type="text" id="name" class="input-field" placeholder="Your Name"> <br>
                 <input type="number" id="score" class="input-field" placeholder="Your Score"> <br>
                 <input type="submit" value="Submit" id="submit">
